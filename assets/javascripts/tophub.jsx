@@ -1,7 +1,6 @@
 //= require jquery/dist/jquery.js
 //= require react/react.min.js
 //= require react/react-dom.js
-//= require masonry/dist/masonry.pkgd.js
 //= require_self
 //= require_tree ./components
 
