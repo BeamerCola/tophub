@@ -1,3 +1,6 @@
+// An inline representation of a GitHub user.
+// Shows circle avatar next to their name
+//
 var UserLink = React.createClass({
   render: function() {
     var url = "http://github.com/" + this.props.user.login;

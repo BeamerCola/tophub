@@ -1,0 +1,8 @@
+TopHub
+A small project that lists top GitHub repositories and their top contributors
+
+Stack
+The project is a small Sinatra app (with Sprockets for SCSS) using React as the rendering eingine
+
+Note
+You will need to run `bower install` to download necessary libraries, as I didn't include them in the repository

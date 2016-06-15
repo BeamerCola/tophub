@@ -5,6 +5,7 @@
 //= require_self
 //= require_tree ./components
 
+// Global reference to RepositoryList React Component
 var repositoryList;
 
 // Since top contributors require a separate API call, to speed

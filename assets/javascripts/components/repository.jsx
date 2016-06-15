@@ -1,3 +1,9 @@
+// A repository card
+// Upon mounting it fetches contributors and updates itself to render the
+// top contributor
+//
+// TODO: Move contributor to it's own component so it can handle any API calls
+//
 var Repository = React.createClass({
   getInitialState: function() {
     return { data: {}, contributors: [] };
