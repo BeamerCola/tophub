@@ -1,1 +1,37 @@
-@import "../../bower_components/bootstrap/scss/bootstrap.scss"
+// Bootstrap Variables
+$enable-flex:                true;
+$brand-primary:              #4857b7;
+$brand-dark:                 #3C4774;
+$list-inline-padding:        1em;
+$font-family-sans-serif:     'Avenir', sans-serif;
+$headings-font-family:       'Avenir', sans-serif;
+$headings-font-weight:       normal;
+@import "../../bower_components/bootstrap/scss/_variables.scss";
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+
+body {
+  color: $brand-dark;
+}
+
+header {
+  background-color: $brand-primary;
+  color: #fff;
+  padding: $jumbotron-padding;
+  margin-bottom: 1rem;
+}
+
+.user-link {
+  img {
+    border: 2px solid $brand-primary;
+    vertical-align: middle;
+  }
+}
+
+.card-repository {
+  .card-repository-meta {
+    margin-bottom: 0;
+    i {
+      // margin-right: .25em
+    }
+  }
+}
