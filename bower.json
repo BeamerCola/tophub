@@ -4,7 +4,6 @@
   "dependencies": {
     "bootstrap": "bootstrap#4.0.0-alpha.2",
     "jquery": "2.2.4",
-    "react": "",
-    "masonry": ""
+    "react": ""
   }
 }
